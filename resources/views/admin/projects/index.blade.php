@@ -9,7 +9,7 @@
                     <th scope="col">Id</th>
                     <th scope="col">Name</th>
                     <th scope="col">Date</th>
-                    <th scope="col">Tecnology</th>
+                    <th scope="col">Type</th>
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
