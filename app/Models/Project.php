@@ -10,14 +10,14 @@ class Project extends Model
 {
     use HasFactory;
 
-    public function tecnology()
+    public function type()
     {
-        return $this->belongsTo(Tecnology::class);
+        return $this->belongsTo(Type::class);
     }
 
     protected $fillable = [
         'name',
-        'tecnology',
+        'type',
         'date',
         'description',
         'image'

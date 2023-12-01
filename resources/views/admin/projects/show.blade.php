@@ -8,8 +8,8 @@
             <img src="{{ asset('storage/' . $project->image) }}" alt="{{ $project->name }}">
         </div>
         <h1>{{ $project->name }}</h1>
-        @if ($project->tecnology)
-            <p>Tecnology: <strong>{{ $project->tecnology->name }}</strong></p>
+        @if ($project->type)
+            <p>Type: <strong>{{ $project->type->name }}</strong></p>
         @endif
         @php
             $date = date_create($project->date);
